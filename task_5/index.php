@@ -96,7 +96,7 @@
         setVal('gender', $fet['gender']);
         setVal('like_lang', $like_lang);
         setVal('biography', $fet['biography']);
-        setVal('oznakomlen', $fet['oznakomlen']);
+        setVal('agreement', $fet['agreement']);
       }
       catch(PDOException $e){
         print('Error : ' . $e->getMessage());
