@@ -14,8 +14,8 @@
         <h3>Форма</h3>
         <div class="message"><?php if(isset($messages['success'])) echo $messages['success']; ?></div>
         <div>
-            <input class="w100 <?php echo ($errors['fio'] != NULL) ? 'borred' : ''; ?>" value="<?php echo $values['fio']; ?>" type="text" name="fio" placeholder="ФИО">
-            <div class="errpodinp"><?php echo $messages['fio']?></div>
+            <input class="w100 <?php echo ($errors['fullName'] != NULL) ? 'borred' : ''; ?>" value="<?php echo $values['fullName']; ?>" type="text" name="fullName" placeholder="ФИО">
+            <div class="errpodinp"><?php echo $messages['fullName']?></div>
         </div>
         <div>
             <input class="w100 <?php echo ($errors['phone'] != NULL) ? 'borred' : ''; ?>" value="<?php echo $values['phone']; ?>" type="tel" name="phone" placeholder="Телефон">
